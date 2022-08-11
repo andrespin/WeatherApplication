@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_back_color"
+    android:orientation="vertical"
+    tools:context=".ui.city.CityFragment">
+
+    <TextView
+        android:id="@+id/txtCityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        tools:text="Москва" />
+
+    <TextView
+        android:id="@+id/txtFirstDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="27.03.23" />
+
+    <TextView
+        android:id="@+id/txtFirstTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="+24 C" />
+
+    <TextView
+        android:id="@+id/txtFirstAnotherInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Холодно, пасмурно" />
+
+    <TextView
+        android:id="@+id/txtSecondDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="27.03.23" />
+
+    <TextView
+        android:id="@+id/txtSecondTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="+24 C" />
+
+    <TextView
+        android:id="@+id/txtSecondAnotherInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Холодно, пасмурно" />
+
+
+    <TextView
+        android:id="@+id/txtThirdDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="27.03.23" />
+
+    <TextView
+        android:id="@+id/txtThirdTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="+24 C" />
+
+    <TextView
+        android:id="@+id/txtThirdAnotherInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Холодно, пасмурно" />
+
+</LinearLayout>

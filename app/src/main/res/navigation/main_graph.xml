@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/cities">
+
+    <fragment
+        android:id="@+id/cities"
+        android:name="android.andrespin.weather.ui.cities.CitiesFragment"
+        tools:layout="@layout/fragment_cities" >
+        <action
+            android:id="@+id/action_cities_to_city"
+            app:destination="@id/city" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/city"
+        android:name="android.andrespin.weather.ui.city.CityFragment"
+        tools:layout="@layout/fragment_city" />
+
+</navigation>
